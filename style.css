@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(13, 13, 14, 0.623);
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+  text-shadow: 5px 0 rgba(221, 19, 53, 0.945);
+}
+
+footer {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 5px 0 rgba(221, 19, 53, 0.945);
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+.a {
+  background-image: url("images/tom2.png");
+}
+.s {
+  background-image: url("images/tom3.png");
+}
+.d {
+  background-image: url("images/tom4.png");
+}
+.j {
+  background-image: url("images/snare.png");
+}
+.k {
+  background-image: url("images/kick.png");
+}
+.l {
+  background-image: url("images/crash.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.drum {
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+  border: 10px solid rgba(221, 19, 53, 0.945);
+  line-height: 2;
+  color: rgb(105, 0, 0);
+  text-shadow: 5px 0 rgba(221, 19, 53, 0.945);
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #fff;
+  outline: none;
+  font-weight: 700;
+}
+
+.drum:hover {
+  border-color: rgba(160, 90, 102, 0.945);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
+}
